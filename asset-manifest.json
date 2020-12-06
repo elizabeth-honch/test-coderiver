@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.abf9d4f8.chunk.css",
+    "main.js": "./static/js/main.b26437d2.chunk.js",
+    "main.js.map": "./static/js/main.b26437d2.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8d3575a0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8d3575a0.js.map",
+    "static/js/2.021336dd.chunk.js": "./static/js/2.021336dd.chunk.js",
+    "static/js/2.021336dd.chunk.js.map": "./static/js/2.021336dd.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.abf9d4f8.chunk.css.map": "./static/css/main.abf9d4f8.chunk.css.map",
+    "static/js/2.021336dd.chunk.js.LICENSE.txt": "./static/js/2.021336dd.chunk.js.LICENSE.txt",
+    "static/media/Card.scss": "./static/media/bg.0eff8d40.png",
+    "static/media/face-jordan.c19bb767.png": "./static/media/face-jordan.c19bb767.png",
+    "static/media/first.ef67d82a.png": "./static/media/first.ef67d82a.png",
+    "static/media/four.5dade70d.png": "./static/media/four.5dade70d.png",
+    "static/media/history.7f012e97.png": "./static/media/history.7f012e97.png",
+    "static/media/second.d060720a.png": "./static/media/second.d060720a.png",
+    "static/media/third.fe59bee3.png": "./static/media/third.fe59bee3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d3575a0.js",
+    "static/js/2.021336dd.chunk.js",
+    "static/css/main.abf9d4f8.chunk.css",
+    "static/js/main.b26437d2.chunk.js"
+  ]
+}

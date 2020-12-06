@@ -1,0 +1,63 @@
+.history {
+  width: 770px;
+  height: 320px;
+  padding: 30px 30px 0;
+  margin: 31px 30px 19px 30px;
+
+  border-radius: 4px;
+  border: 1px solid #e6eaee;
+  background-color: #ffffff;
+
+  transition: transform 500ms;
+
+  @media only screen and (max-width: 1630px) {
+    width: auto;
+  }
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: #354052;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+  }
+
+  &__btn {
+    padding: 9px 26px;
+
+    color: #b5b5b5;
+    font-family: "Source Sans Pro - Semibold";
+    font-size: 12px;
+
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    outline: none;
+
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+      border-radius: 13px;
+      background-image: linear-gradient(to top, #1991eb 0%, #2ea1f8 100%);
+    }
+  }
+
+  &__img {
+    width: 709px;
+    min-width: 400px;
+    margin-top: 28px;
+
+    @media only screen and (max-width: 1630px) {
+      max-width: 500px;
+      width: auto;
+    }
+  }
+}

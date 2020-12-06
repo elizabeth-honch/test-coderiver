@@ -1,0 +1,28 @@
+.friends {
+  margin-top: 109px;
+
+  @media only screen and (max-width: 1200px) {
+    display: none;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    height: 16px;
+    line-height: 16px;
+    width: 190px;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 1630px) {
+      width: 120px;
+    }
+  }
+  
+  &__title {
+    color: #5b6779;
+    font-family: "Source Sans Pro - Semibold";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}

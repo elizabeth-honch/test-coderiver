@@ -1,0 +1,43 @@
+.list {
+  width: 190px;
+  padding-top: 26px;
+  margin: 0 auto;
+
+  &:last-child() {
+    margin-bottom: 30px;
+  }
+
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+    
+    transition: background-color 700ms;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #313d4f;
+    }
+  }
+
+  &__name {
+    color: #ffffff;
+    font-family: "Source Sans Pro - Semibold";
+    font-size: 14px;
+  }
+
+  &__status {
+    color: #7c8ca5;
+    font-family: "Source Sans Pro - Semibold";
+    font-size: 14px;
+
+    &-true {
+      color: #ffffff;
+      font-family: "Source Sans Pro - Semibold";
+      font-size: 14px;
+    }
+  }
+
+  &__block {
+    margin-left: 13px;
+  }
+}

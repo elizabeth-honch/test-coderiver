@@ -1,0 +1,47 @@
+.table {
+  width: 770px;
+  height: 344px;
+  margin-top: 20px;
+  margin-left: 30px;
+
+  border-radius: 4px;
+  border-collapse: collapse;
+  border: 1px solid #e6eaee;
+  background-color: #ffffff;
+
+  @media only screen and (max-width: 1630px) {
+    max-width: 540px;
+  }
+
+  &__title {
+    padding-left: 31px;
+    text-align: left;
+    color: #354052;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+  }
+
+  &__head {
+    color: #7f8fa4;
+    font-family: "Source Sans Pro - Semibold";
+    font-size: 14px;
+  }
+
+  &__row {
+    &:nth-child(2n+1) {
+      background-color: #f5f8fa;
+    }
+  }
+
+  &__row td {
+    padding-left: 29px;
+  }
+
+  &__arrow {
+    margin-left: 19px;
+  }
+
+  &__row-head th {
+    padding-top: 28px;
+  }
+}

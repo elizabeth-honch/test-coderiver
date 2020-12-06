@@ -1,8 +1,72 @@
-.nav {
-  display: flex;
-  margin: 20px;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
-  * {
-    margin-right: 10px;
+html {
+  font-size: 14px;
+  font-family: "Sharp Sans No2 Semibold", sans-serif;
+}
+
+html,
+body,
+p,
+div,
+nav,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+button,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  background-color: #eff3f6;
+
+  &__main {
+    width: 100%;
+  }
+
+  &__container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #eff3f6;
+
+    @media only screen and (max-width: 1100px) {
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    width: 400px;
+  }
+  @media only screen and (max-width: 1100px) {
+    &__info {
+      margin: 0 auto;
+    }
+    &__card {
+      margin: 0 auto;
+    }
+  }
+
+  @media only screen and (max-width: 1630px) {
+    &__info {
+      width: 600px;
+    }
+
+    &__card {
+      width: 300px;
+    }
   }
 }
